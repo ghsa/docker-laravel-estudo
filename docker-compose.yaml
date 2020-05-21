@@ -56,7 +56,6 @@ services:
             - MYSQL_USER=root
         networks:
             - app-network
-
-networks:
-    app-network:
-        driver: bridge
+    networks:
+        app-network:
+            driver: bridge
