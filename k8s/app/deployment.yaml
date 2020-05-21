@@ -15,6 +15,7 @@ spec:
       containers:
         - name: app
           image: img-app-deployment
+          command: ["/var/www/k8s/entrypont.sh"]
           ports:
             - containerPort: 80
 
